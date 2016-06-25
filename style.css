@@ -98,6 +98,10 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .footer {
   display: -webkit-box;
   display: -webkit-flex;
