@@ -115,99 +115,99 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2f7f4fa5fe6663aefb1d_B%26W%20Home-page2.png");
   background-position: 0px 0px;
   background-size: contain;
   box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, .02);
 }
 
-.work-item:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576702dfbd63608e7eb4a842_Screen-Shot-2016-05-02-at-7.16.02-PM.jpg");
-}
 
 .work-item.w1 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2e8110f696882a2ed52a_B%26W%20Home-page9.png");
+  background-image: url("images/wi/9months_bw.png");
   background-size: contain;
 }
 
 .work-item.w1:hover {
-  padding-top: 0px;
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be7c51fb3f97955517ea7_color%2019.png");
+  background-image: url("images/wi/9months_color.png");
   background-size: contain;
 }
 
 .work-item.w2 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b34f9808b068363126142_B%26W%20Home-page7.png");
+  background-image: url("images/wi/feelter_bw.png");
   background-size: contain;
 }
 
 .work-item.w2:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be7d756781b9d0fb13b55_color%2017.png");
+  background-image: url("images/wi/feelter_color.png");
   background-size: contain;
 }
 
 .work-item.w3 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2ea6f0d2310d0af671f9_B%26W%20Home-page3.png");
+  background-image: url("images/wi/cattris_bw.png");
   background-size: contain;
 }
 
 .work-item.w3:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be7e3e6862da634586f71_color%2013.png");
+  background-image: url("images/wi/cattris_color.png");
   background-size: contain;
 }
 
 .work-item.w4 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2edb02c896d0098e949a_B%26W%20Home-page4.png");
+  background-image: url("images/wi/blowies_bw.png");
   background-size: contain;
 }
 
 .work-item.w4:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be7f51fb3f97955517eb6_color%2014.png");
+  background-image: url("images/wi/blowies_color.png");
   background-size: contain;
 }
 
 .work-item.w5 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be9ec3b0f04c134ee13fb_b%26W%20copy.png");
+  background-image: url("images/wi/megulgelet_bw.png");
   background-size: contain;
 }
 
 .work-item.w5:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be8291fb3f97955517f07_color%2015.png");
+  background-image: url("images/wi/megulgelet_color.png");
   background-size: contain;
 }
 
 .work-item.w6 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2f124fa5fe6663aefb0a_B%26W%20Home-page6.png");
+  background-image: url("images/wi/ychilli_bw.png");
   background-size: contain;
 }
 
 .work-item.w6:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be84a86726f620f3efa5e_color%2016.png");
+  background-image: url("images/wi/ychilli_color.png");
   background-size: contain;
 }
 
 .work-item.w7 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2fb9808b068363125b8e_B%26W%20Home-page1.png");
+  background-image: url("images/wi/spottr_bw.png");
   background-size: contain;
 }
 
 .work-item.w7:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be86956781b9d0fb13d1a_color%2011.png");
+  background-image: url("images/wi/spottr_color.png");
+  background-size: contain;
+}
+
+.work-item.w8 {
+  background-image: url("images/wi/ltc_bw.png");
   background-size: contain;
 }
 
 .work-item.w8:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be87f56781b9d0fb13d21_color%2012.png");
+  background-image: url("images/wi/ltc_color.png");
   background-size: contain;
 }
 
 .work-item.w9 {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576b2f574fa5fe6663aefb0c_B%26W%20Home-page8.png");
+  background-image: url("images/wi/pas_bw.png");
   background-size: contain;
 }
 
 .work-item.w9:hover {
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/576be894e6862da634586fa6_color%2018.png");
+  background-image: url("images/wi/pas_color.png");
   background-size: contain;
 }
 
@@ -300,13 +300,6 @@ body {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.5px;
-}
-
-.square {
-  background-color: #0098ff;
-  background-image: url("http://uploads.webflow.com/562682723f43904a4c6f5b9a/5767e08831f647c53630b3dd_color_square-02.png");
-  background-position: 0px 0px;
-  background-size: 61px;
 }
 
 .mail {
