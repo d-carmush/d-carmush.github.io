@@ -358,6 +358,26 @@ a {
   padding-bottom: 0px;
 }
 
+.w-slider-arrow-left {
+	width: 20%;
+}
+
+.w-slider-arrow-right {
+	width: 80%;
+}
+
+.w-icon-slider-left {
+	margin: auto auto auto 8%;
+	color: #fff;
+	text-shadow: 1px 0 1px rgba(0, 0, 0, .37);
+}
+
+.w-icon-slider-right {
+	margin: auto 2% auto auto;
+	color: #fff;
+	text-shadow: 1px 0 1px rgba(0, 0, 0, .37);
+}
+
 .slider {
   display: block;
 }
