@@ -360,14 +360,11 @@ a {
 
 .slider {
   display: block;
+  margin-bottom: 5px;
 }
 
 .slider .w-slider-mask .w-slide img {
 	width: 100%;
-}
-
-.details {
-  margin-bottom: 10px;
 }
 
 .video {
