@@ -229,7 +229,7 @@ a {
 }
 
 .wi {
-  width: 33%;
+  width: 33.33333333%;
   padding: 10px;
   float: left;
   clear: none;
@@ -411,7 +411,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 33%;
+    width: 33.33333333%;
     float: left;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
