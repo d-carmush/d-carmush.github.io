@@ -113,18 +113,6 @@ a {
   justify-content: center;
 }
 
-.work-item {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  background-position: 0px 0px;
-  background-size: contain;
-  box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, .02);
-}
-
-
 .work-item.w1 {
   background-image: url("images/wi/9months_bw.png");
   background-size: contain;
@@ -226,14 +214,6 @@ a {
 
 .dummy {
   padding-top: 100%;
-}
-
-.wi {
-  width: 33.33333333%;
-  padding: 10px;
-  float: left;
-  clear: none;
-  background-color: transparent;
 }
 
 .cool-title {
@@ -394,39 +374,36 @@ a {
   margin-bottom: 10px;
 }
 
+.work-item {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-position: 0px 0px;
+  box-shadow: -1px 1px 2px 0 rgba(0, 0, 0, .02);
+}
+
+.wi {
+  width: 33.33333333%;
+  float: left;
+  clear: none;
+  background-color: transparent;
+}
+
+.wi.left-3 {
+	padding: 10px 13.33333333px 10px 0px;
+}
+
+.wi.mid-3 {
+	padding: 10px 6.66666667px;
+}
+
+.wi.right-3 {
+	padding: 10px 0px 10px 13.33333333px;
+}
+
 @media (max-width: 991px) {
-  .work-item {
-    position: absolute;
-    display: block;
-    overflow: visible;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    border-color: transparent;
-  }
-  .wi {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 33.33333333%;
-    float: left;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .wi.alt {
-    background-color: transparent;
-  }
   .feelter-gallery {
     display: block;
     margin-right: auto;
@@ -439,17 +416,15 @@ a {
   .wi {
     width: 50%;
   }
+  .wi.left-2 {
+	padding: 10px 10px 10px 0px;
+  }
+  .wi.right-2 {
+	padding: 10px 0px 10px 10px;
+  }
   .wi.last {
     position: relative;
     left: 25%;
-  }
-}
-
-@media (max-width: 479px) {
-  .wi {
-    width: 100%;
-  }
-  .wi.last {
-    position: static;
+    padding: 10px 0px;
   }
 }
